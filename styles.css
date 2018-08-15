@@ -1,5 +1,5 @@
 
-
+<link rel="stylesheet" href="styles.css">
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -53,18 +53,17 @@
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
-.Billigare  {
-	position: center;
-	margin-left: 70%;
-    margin-top: 10%;
-	font-size: 45px;
-}
-.info {
-        background-color: tomato;
-        color: white;
-        padding: 10p;
-}
 
 
 
 
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css">
