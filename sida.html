@@ -16,42 +16,45 @@
        		padding: 10p;
        		width: center;
     	}
-    	.topnav {
-    overflow: hidden;
-    background-color: #0000;
-}
+			.search-box-wrapper {
+				display: inline-flex;
+				font-size: 30px;
+				position:absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: none;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+			.search-box-input {
+				font-size: inherit;
+				border: 0.2em solid #7e7;
+				border-radius: 0.5em 0 0 0.5em;
+				padding:0.2em 0.5em;
+			}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
+			.search-box-input:hover,
+			.search-box-input:focus {
+				border-color: #4d4;
+			}
 
-/* Style the "active" element to highlight the current page */
-.topnav a.active {
-    background-color: #2196F3;
-    color: white;
-}
+			.search-box-button {
+				font-size: inherit;
+				border: 0.2em solid #7e7;
+				border-radius: 0 0.5em 0.5em 0;
+				background-color: #7e7;
+				border-left: 0;
+				padding:0 0.5em;
+				font-weight: bold;
+				cursor: pointer;
+			}
 
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    position: center;
-    padding: 7px;
-    border: 10;
-    margin-top: 25%;
-    margin-left: 43%;
-    font-size: 20px;
+			.search-box-button:hover,
+			.search-box-button:focus {
+				border-color: #4d4;
+				background-color: #4d4;
+			}
+
+
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -70,6 +73,7 @@
 		</style>
 		<title>Billigare.com</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<!--<link rel="stylesheet" href="styles.css">-->
 	</head>
 <body>
